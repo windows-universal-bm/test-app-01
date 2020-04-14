@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="d9ca8dad-0538-4496-b503-f79fe866105f"
-    Publisher="CN=bigmo"
+    Name="64530WallaceSun.MogicianXboxLiveDemo"
+    Publisher="CN=F20CB244-5466-4E73-B935-8A83BABDE8FA"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="d9ca8dad-0538-4496-b503-f79fe866105f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="626cf224-e320-4a3f-bb86-84eb059d41e1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>TestApp01</DisplayName>
-    <PublisherDisplayName>bigmo</PublisherDisplayName>
+    <DisplayName>MogicianXboxLiveDemo</DisplayName>
+    <PublisherDisplayName>Wallace Sun</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -32,7 +32,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="TestApp01.App">
       <uap:VisualElements
-        DisplayName="TestApp01"
+        DisplayName="MogicianXboxLiveDemo"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="TestApp01"

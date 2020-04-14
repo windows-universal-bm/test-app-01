@@ -9,6 +9,58 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock
+                Text="Logined? -> "
+                Padding="100,0,0,0"
+                FontSize="60"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center">
+            </TextBlock>
+            <TextBlock
+                Text="{x:Bind Logined, Mode=OneWay}"
+                Padding="100,0,0,0"
+                FontSize="60"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center">
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <TextBlock
+                Text="NeedAuth? -> "
+                Padding="100,0,0,0"
+                FontSize="60"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center">
+            </TextBlock>
+            <TextBlock
+                Text="{x:Bind NeedAuth, Mode=OneWay}"
+                Padding="100,0,0,0"
+                FontSize="60"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center">
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <TextBlock
+                Text="LoginCanncel? -> "
+                Padding="100,0,0,0"
+                FontSize="60"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center">
+            </TextBlock>
+            <TextBlock
+                Text="{x:Bind LoginCancel, Mode=OneWay}"
+                Padding="100,0,0,0"
+                FontSize="60"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center">
+            </TextBlock>
+        </StackPanel>
     </Grid>
 </Page>
